@@ -69,7 +69,7 @@ docker exec -t kafka /usr/bin/kafka-console-consumer \
 #### Create Student
 ```shell
 curl -X POST \
-  'http://localhost:8080/students/~/enroll' \
+  'http://localhost:8080/students' \
   -H 'content-type: application/json' \
   -d '{ 
     "name": "Megan Clark",
