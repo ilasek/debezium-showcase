@@ -1,0 +1,7 @@
+/.idea/
+/logs/
+/custom-debezium-transformer/target/
+/student-service/target/
+/student-service-consumer/target/
+
+*.iml
